@@ -3,36 +3,31 @@
 
 pushd source
 
-set VAR = "kinkakuji1.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "kinkakuji2.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "kinkakuji3.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
+set VAR = "kinkakuji" #金閣寺
+cat _1.html _2$VAR"1.html" _3.html _4$VAR"1.html" _5.html > ../$VAR"1.html"
+cat _1.html _2$VAR"2.html" _3.html _4$VAR"2.html" _5.html > ../$VAR"2.html"
+cat _1.html _2$VAR"3.html" _3.html _4$VAR"3.html" _5.html > ../$VAR"3.html"
 
-set VAR = "azuchi1.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "azuchi2.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "azuchi3.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "azuchi4.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "azuchi5.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
+set VAR = "azuchi" # 安土城
+cat _1.html _2$VAR"1.html" _3.html _4$VAR"1.html" _5.html > ../$VAR"1.html"
+cat _1.html _2$VAR"2.html" _3.html _4$VAR"2.html" _5.html > ../$VAR"2.html"
+cat _1.html _2$VAR"3.html" _3.html _4$VAR"3.html" _5.html > ../$VAR"3.html"
+cat _1.html _2$VAR"4.html" _3.html _4$VAR"4.html" _5.html > ../$VAR"4.html"
+cat _1.html _2$VAR"5.html" _3.html _4$VAR"5.html" _5.html > ../$VAR"5.html"
 
-set VAR = "matsuyama1.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "matsuyama2.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "matsuyama3.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "matsuyama4.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "matsuyama5.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
-set VAR = "matsuyama6.html"
-cat _1.html _2$VAR _3.html _4$VAR _5.html > ../$VAR
+set VAR = "matsuyama" # 松山城
+cat _1.html _2$VAR"1.html" _3.html _4$VAR"1.html" _5.html > ../$VAR"1.html"
+cat _1.html _2$VAR"2.html" _3.html _4$VAR"2.html" _5.html > ../$VAR"2.html"
+cat _1.html _2$VAR"3.html" _3.html _4$VAR"3.html" _5.html > ../$VAR"3.html"
+cat _1.html _2$VAR"4.html" _3.html _4$VAR"4.html" _5.html > ../$VAR"4.html"
+cat _1.html _2$VAR"5.html" _3.html _4$VAR"5.html" _5.html > ../$VAR"5.html"
+cat _1.html _2$VAR"6.html" _3.html _4$VAR"6.html" _5.html > ../$VAR"6.html"
+
+set VAR = "kumamoto" # 熊本城
+cat _1.html _2$VAR"1.html" _3.html _4$VAR"1.html" _5.html > ../$VAR"1.html"
+cat _1.html _2$VAR"2.html" _3.html _4$VAR"2.html" _5.html > ../$VAR"2.html"
+cat _1.html _2$VAR"3.html" _3.html _4$VAR"3.html" _5.html > ../$VAR"3.html"
+cat _1.html _2$VAR"4.html" _3.html _4$VAR"4.html" _5.html > ../$VAR"4.html"
 
 popd
 

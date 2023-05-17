@@ -62,6 +62,8 @@ cat _1.html _2$VAR"4.html" _3.html _4$VAR"4.html" _5.html > ../$VAR"4.html"
 set VAR = "himejiRuin" # 姫路城廃墟仕様
 cat _1.html _2$VAR"1.html" _3.html _4$VAR"1.html" _5.html > ../$VAR"1.html"
 cat _1.html _2$VAR"2.html" _3.html _4$VAR"2.html" _5.html > ../$VAR"2.html"
+cat _1.html _2$VAR"3.html" _3.html _4$VAR"3.html" _5.html > ../$VAR"3.html"
+cat _1.html _2$VAR"4.html" _3.html _4$VAR"4.html" _5.html > ../$VAR"4.html"
 
 popd
 

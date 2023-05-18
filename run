@@ -65,5 +65,8 @@ cat _1.html _2$VAR"2.html" _3.html _4$VAR"2.html" _5.html > ../$VAR"2.html"
 cat _1.html _2$VAR"3.html" _3.html _4$VAR"3.html" _5.html > ../$VAR"3.html"
 cat _1.html _2$VAR"4.html" _3.html _4$VAR"4.html" _5.html > ../$VAR"4.html"
 
+#トップページ
+cat _1.html _2index.html _3.html _4index.html _5.html > ../index.html
+
 popd
 
